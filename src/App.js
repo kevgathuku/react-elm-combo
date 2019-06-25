@@ -2,6 +2,10 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+// Add these two imports
+import Elm from 'react-elm-components';
+import Main from "./Main";
+
 function App() {
   return (
     <div className="App">
@@ -18,6 +22,8 @@ function App() {
         >
           Learn React
         </a>
+        {/* The following line renders the Elm app just like a React component */}
+        <Elm src={Main.Elm.Main} />
       </header>
     </div>
   );

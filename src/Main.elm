@@ -2,6 +2,8 @@
 -- Read more about this program in the official Elm guide:
 -- https://guide.elm-lang.org/architecture/buttons.html
 
+module Main exposing (..)
+
 import Browser
 import Html exposing (Html, button, div, text)
 import Html.Events exposing (onClick)
